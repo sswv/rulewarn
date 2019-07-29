@@ -1,0 +1,20 @@
+diff --git a/configure.ac b/configure.ac
+index 5eafd2a79..5caa7ca96 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -2018,6 +2018,7 @@ AM_CONDITIONAL(BUILD_PGPCORE_PLUGIN,		test x"$enable_pgpcore_plugin" != xno)
+ AM_CONDITIONAL(BUILD_PGPMIME_PLUGIN,		test x"$enable_pgpmime_plugin" != xno)
+ AM_CONDITIONAL(BUILD_PGPINLINE_PLUGIN,		test x"$enable_pgpinline_plugin" != xno)
+ AM_CONDITIONAL(BUILD_RSSYL_PLUGIN,		test x"$enable_rssyl_plugin" != xno)
++AM_CONDITIONAL(BUILD_RULEWARN_PLUGIN,		true)
+ AM_CONDITIONAL(BUILD_SMIME_PLUGIN,		test x"$enable_smime_plugin" != xno)
+ AM_CONDITIONAL(BUILD_SPAMASSASSIN_PLUGIN,	test x"$enable_spamassassin_plugin" != xno)
+ AM_CONDITIONAL(BUILD_SPAM_REPORT_PLUGIN,	test x"$enable_spam_report_plugin" != xno)
+@@ -2073,6 +2074,7 @@ src/plugins/rssyl/Makefile
+ src/plugins/rssyl/tests/Makefile
+ src/plugins/rssyl/libfeed/Makefile
+ src/plugins/rssyl/libfeed/tests/Makefile
++src/plugins/rulewarn/Makefile
+ src/plugins/smime/Makefile
+ src/plugins/spamassassin/Makefile
+ src/plugins/spam_report/Makefile

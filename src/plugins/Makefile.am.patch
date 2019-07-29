@@ -1,0 +1,12 @@
+diff --git a/src/plugins/Makefile.am b/src/plugins/Makefile.am
+index 1f889568b..6861c70b0 100644
+--- a/src/plugins/Makefile.am
++++ b/src/plugins/Makefile.am
+@@ -31,6 +31,7 @@ SUBDIRS = \
+ 	pgpmime \
+ 	pgpinline \
+ 	rssyl \
++	rulewarn \
+ 	smime \
+ 	spamassassin \
+ 	spam_report \
